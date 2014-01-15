@@ -4,4 +4,7 @@ def list(bullet)
 	bullet.each {|bullet| puts "* #{bullet}"}
 end
 
+
+grocery_list << "rice"
+ 
 list(grocery_list)
